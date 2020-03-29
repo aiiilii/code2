@@ -19,7 +19,7 @@ public class BreakingTheRecords {
                 breakHigh ++;
             }
             if (scores[i] < min) {
-                MissingMemberHandlerFactory = scores[i];
+                min = scores[i];
                 breakLow ++;
             }
         }

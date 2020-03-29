@@ -1,5 +1,3 @@
-import jdk.dynalink.beans.MissingMemberHandlerFactory;
-
 public class BreakingTheRecords {
 
     public static int[] breakingRecords(int[] scores) {
